@@ -1,0 +1,36 @@
+form{
+    text-align: center;
+}
+body{
+    padding: 3rem 0;
+    background-color: bisque;
+}
+input{
+    padding: 10px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+.submits{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    transition: .3s;
+    border-radius: 10px;
+}
+.submits:hover{
+    background-color: white;
+    color: black;
+}
+.all h1{
+    color: grey;
+}
+i{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+#pas{
+    position: relative;
+}

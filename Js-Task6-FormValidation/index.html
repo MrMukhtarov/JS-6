@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="all text-center">
+        <h1 class="mb-4 h1" title="Form Validation">FORM VALIDATION</h1>
+
+        <form name="forms" action="index.html" onsubmit="return validateForm()" method="get">
+            
+          <p id="h1" class="monthvalidate" style="color: red;"></p>
+            <!-- username -->
+          <input id="user" type="text" name="Username" placeholder="Enter Your Username" class="mb-2"><br>
+           <!-- //Password -->
+          <input id="pas" type="password" placeholder="Enter Your Password" class="mb-2">
+          <i id="icon" class="fa-solid fa-eye"></i><br>
+           <!-- //Email -->
+          <input type="text" name="email" placeholder="Enter Your Email"><br>
+           <br>
+          <input id="okay" class="submits" type="submit" name="SUBMIT">
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
